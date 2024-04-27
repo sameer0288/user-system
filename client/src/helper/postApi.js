@@ -1,4 +1,4 @@
-const BASE_URL = `${process.env.REACT_APP_SERVER_DOMAIN}/api`;
+const BASE_URL = "https://user-system-ykwp.onrender.com/api";
 // console.log(BASE_URL);
 
 export const getAllPosts = async () => {
