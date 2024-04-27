@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*>* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #dcdce6;
+    background-image: url('./assets/Background.png');
+    zoom: 80%;
+}
+
+/* For WebKit Browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 1.3rem;
+    /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0.8rem;
+    background: #a8a7a7;
+    transition: all 0.5s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #626264;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    /* Color of the track (the non-draggable part) */
+}
