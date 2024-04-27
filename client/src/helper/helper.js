@@ -1,7 +1,8 @@
 import axios from "axios";
 import jwt_decode from "jwt-decode";
 
-axios.defaults.baseURL = process.env.REACT_APP_SERVER_DOMAIN;
+axios.defaults.baseURL = "https://user-system-ykwp.onrender.com";
+
 // console.log("URL:", `${axios.defaults.baseURL}/api/register`);
 /** Make API Requests */
 
